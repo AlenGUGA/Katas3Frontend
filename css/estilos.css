@@ -1,0 +1,74 @@
+.container{
+    padding-top: 40px;
+    width: 95%;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;   
+    font-size: 25px; 
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+
+}
+.container div{
+    /* text-decoration: none; */
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 60px;
+
+}
+.container div a{
+    text-decoration: none;  
+}
+.menu{
+    flex-grow: 1;
+    text-align: center;
+}
+.menu a{
+    color: darkgray;
+    vertical-align:middle;
+
+}
+.boton{
+    background-color: rgb(57, 57, 214);
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgb(103, 147, 230);
+}
+.boton a{
+    color: white;
+}
+.logo{
+    flex-grow: 10;
+    font-size: 45px;
+}
+.logo a{
+    color: darkblue;
+}
+.body{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.body div {
+    flex:1;
+}
+.body div h1{
+    color: rgb(34, 44, 100);
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 250px;
+    padding-top: 40px;
+}
+.body div p{
+    color: rgb(48, 59, 121);
+    font-size: 30px;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 250px;
+
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
